@@ -10,7 +10,7 @@ Duplicate identification is done through the MD5 hash of each file.
 
 - Identifies duplicates in the current workign directory, does not move them.
 
-`Remove-Duplicates.ps1 . remove"`
+`Remove-Duplicates.ps1 . remove`
 
 - Identifies duplicates in the current working directory and moves them to a new directory for deletion (which will be called 'Delete Me').
 - This is the most common use-case for the script
